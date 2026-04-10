@@ -62,11 +62,11 @@ The template has been customized to fit the organization’s branding and conten
 ## GETTING STARTED
 
 1. Clone the repository:
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/yukthasingh/yukthasingh.github.io.git
+   cd yukthasingh.github.io
 
 2. Open the project:
-   Open index.html in your browser or use a live server (e.g., VS Code Live Server).
+   Open index.html in your IDE.
 
 3. Edit content:
 
