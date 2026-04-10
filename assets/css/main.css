@@ -344,6 +344,18 @@ body::before {
 	}
 }
 
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+		transform: translateY(1rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 /* Mobile gradient animation - faster and smoother */
 @media screen and (max-width: 736px) {
 	@keyframes gradient-shift-mobile {
@@ -2891,6 +2903,9 @@ body.is-preload #header.alt .logo {
 	cursor: default;
 	text-align: center;
 	margin-bottom: 2em;
+	opacity: 0;
+	transform: translateY(-1rem);
+	animation: fade-in 1.2s ease 0.8s forwards;
 }
 
 #nav input,
@@ -3641,6 +3656,9 @@ body.scrolling-up #main {
 	background: rgba(255, 255, 255, 0.98);
 	border-radius: 1.75rem;
 	box-shadow: 0 40px 90px rgba(0, 0, 0, 0.08);
+	opacity: 0;
+	transform: translateY(1.5rem);
+	animation: fade-in 1.4s ease 1s forwards;
 }
 
 #main {
